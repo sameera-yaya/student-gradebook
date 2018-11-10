@@ -1,2 +1,2 @@
 # student-gradebook
-## Sameera Yayavaram
+Sameera Yayavaram
