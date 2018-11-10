@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="studentsCSS.css">
+    <title>Student Grade Book</title>
+    <script src="studentsJS.js"></script>
+    </head>
+<body>
+    <h2>Student Grade Book</h2>
+    <table>
+        <tr>
+            <th>
+                <p>Last Name: 
+                    <input type="text" id="InputName" placeholder="Enter a name" title="Type in a name"><button type = "button" onclick = "getList()">Search</button></p> 
+
+            </th>
+        </tr>
+        
+        <tr>
+            <td><strong>Students Found</strong></td>
+            <td><strong>Grades for <span id="studentName"></span></strong></td>
+        </tr>
+        <tr>
+            <td>
+                <ul id="ListofNames">
+                <li><a href="#"><button type = "button" onclick = "getAmy()">Amy Gonzalez</button></a></li>
+                <li><a href="#"><button type = "button" onclick = "getBrett()">Brett Gonzalez</button></a></li>
+                <li><a href="#"><button type = "button" onclick = "getBilly()">Billy Jean</button></a></li>
+                <li><a href="#"><button type = "button" onclick = "getBob()">Bob Smith</button></a></li>
+                <li><a href="#"><button type = "button" onclick = "getGio()">Gio Gonzalez</button></a></li>
+                <li><a href="#"><button type = "button" onclick = "getChristian()">Christian Barrera</button></a></li>
+                <li><a href="#"><button type = "button" onclick = "getCathy()">Cathy Lu</button></a></li>
+                </ul>
+            </td>
+            <td>
+                <table>
+                    <tr><td>
+                        <tr>
+                            <td>Course</td>
+                            <td>Grade</td>
+                            </tr>
+                            <tr>
+                            <td id="c1"></td>
+                            <td id="g1"></td>
+                            </tr>
+                            <tr>
+                            <td id="c2"></td>
+                            <td id="g2"></td>
+                            </tr>
+                            <tr>
+                            <td id="c3"></td>
+                            <td id="g3"></td>
+                            </tr>
+                            <tr>
+                            <td id="c4"></td>
+                            <td id="g4"></td>
+                            </tr>
+                        </td></tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
