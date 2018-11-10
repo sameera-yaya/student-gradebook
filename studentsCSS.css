@@ -1,0 +1,33 @@
+#InputName {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+  font-size: 16px;
+  padding: 2.5px 0px 2.5px 0px;
+  border: 1px solid;
+  margin-bottom: 12px;
+}
+
+#ListofNames {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+#ListofNames li{
+  border: 1px solid white;
+  width: 50%;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#ListofNames button{
+    background-color: white;
+    border: white;
+}
